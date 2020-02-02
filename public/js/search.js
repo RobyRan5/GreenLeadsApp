@@ -13,7 +13,8 @@ var settings = {
 
   $.ajax(settings).done(function (response) {
     console.log(response)
-}   
+});   
+
 var userInput = $("field.search");
 var cityInput = $("input#city");
 var stateInput = $("input#state");
