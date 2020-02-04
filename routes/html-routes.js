@@ -19,11 +19,11 @@ var search = require("../public/js/search");
 module.exports = functio(app) {
     app.get("/", function(req, res) {
         if(req.user) {
-    }
+        }
  });
-}
 app.get("/resutls", search, function(req, res) {
-    res.sendFile(path.join(_dirname, "../public/resutls.html"))
-    
+    res.sendFile(path.join(_dirname, "../public/resutls.html")) 
 });
+};
+
 
